@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Aliaksandr Shynkevich
  */
 @RestController
-@RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/test", produces = MediaType.APPLICATION_JSON_VALUE)
 public class SimpleRestController {
 
     private static final String[] NAMES = {"Alex", "John", "Andry", "Kate", "Jerica", "Venkat"};
